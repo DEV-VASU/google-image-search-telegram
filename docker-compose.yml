@@ -3,4 +3,4 @@ services:
   worker:
     build: .
     environment:
-      BOT_NAME = $BOT_NAME
+      BOT_NAME: $BOT_NAME
