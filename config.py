@@ -7,4 +7,4 @@ API_TOKEN = os.environ.get("API_TOKEN", "5104307142:AAFW-V-WmTyb58a4qABgKGhmFDBQ
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL", "")
 NGINX_SUBPATH = os.environ.get("NGINX_SUBPATH", "")
 BATCH = int(os.environ.get("BATCH", 10))
-POLLING = bool(os.environ.get("POLLING", False)
+POLLING = bool(os.environ.get("POLLING", False))
