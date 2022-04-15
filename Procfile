@@ -1,1 +1,1 @@
-worker: run
+worker: server.run
