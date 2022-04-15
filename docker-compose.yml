@@ -4,3 +4,10 @@ services:
     build: .
     environment:
       BOT_NAME: $BOT_NAME
+      CSE_KEY: $CSE_KEY
+      CSE_CX: $CSE_CX
+      API_TOKEN: $API_TOKEN
+      WEBHOOK_URL: $WEBHOOK_URL 
+      NGINX_SUBPATH: $NGINX_SUBPATH
+      BATCH: $BATCH
+      POLLING: $POLLING
