@@ -1,1 +1,1 @@
-worker: gunicorn -w4 -b :8080 bot:server
+web: gunicorn -w4 -b :8080 bot:server
