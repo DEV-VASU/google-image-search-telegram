@@ -74,9 +74,9 @@ def add_allowed_user(message):
 
 @bot.inline_handler(lambda query: True)
 def default_query(inline_query):
-    allowed_users = AllowedUsers().user_list
-    if (inline_query.query == '' or (allowed_users is not None and inline_query.from_user.username not in allowed_users)):
-        return
+    #allowed_users = AllowedUsers().user_list
+    #if (inline_query.query == ''): #or (allowed_users is not None and inline_query.from_user.username not in allowed_users)):
+    #    return
 
     if inline_query.offset == '':
         offset = 0
